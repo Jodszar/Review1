@@ -23,7 +23,7 @@ public class Combinatorics {
         if(r>n)
             comb=0;
         else
-            comb= factorial(n)/(factorial(r)*factorial(n-r));
+            comb= (factorial(n)/(factorial(r))*(factorial(n)-factorial(r)));
 
     }
 }
